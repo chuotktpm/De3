@@ -16,41 +16,45 @@
     <!-- Lato -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- icon -->
-    <img src="https://img.icons8.com/material/24/000000/circled-play--v1.png"/>
+    <link rel="stylesheet" href="/icon/css/ionicons.css">
     <!-- Style  -->
-    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="./css/headerstyle.css">
+    <link rel="stylesheet" href="./css/contentstyle.css">
+    <link rel="stylesheet" href="./css/brandsstyle.css">
+    <link rel="stylesheet" href="./css/footerstyle.css">
 
-    <!-- Boottrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <header>
         <!-- Cmt -->
         <div class="menu">
             <!-- Cmt -->
-            <img class="logo-main" src="/image/bonfire.png" alt="">
+            <a href="/index.html">
+                <img class="logo-main" src="/image/bonfire.png" alt="">
+            </a>
             <nav>
                 <div class="search">
-                    <ion-icon name="reorder-three-outline"></ion-icon>
+                    <i class="ion-navicon"></i>
                 </div>
             </nav>
             <!-- Cmt -->
-            <div class="cart">                
-                <ion-icon name="cart-outline"></ion-icon>
+            <div class="cart">
+                    <a href="#" target="_blank">
+                        <i class="ion-ios-cart-outline"></i>
+                    </a>
+                    <div class="ellipse-2"></div>
+                    <span class="number-2">2</span>
             </div>
-            <div class="ellipse-2">
-            </div>
-            <span class="number-2">2</span>
+            
         </div>
         <!-- Cmt -->
         <div class="slider">
             <!-- Cmt -->
             <div class="button-purchase">
                 <div class="rectangle-2">
-                    <span class="discover-now">DISCOVER NOW</span>
+                    <a href="#" target="_blank">
+                        <span class="discover-now">DISCOVER NOW</span>
+                    </a>
                 </div>
             </div>
             <!-- Cmt -->
@@ -62,11 +66,10 @@
             <!-- Cmt -->
             </div>
             <div class="bg">
-                <div class="girl">
-                </div>
+                <img class="girl" src="/image/girl.png" alt="">
                 <!-- Cmt -->
                 <div class="bg-copy-3">
-                    <img src="/image/Shape 5.png" alt="">
+                    <img src="/image/Layer1.png" alt="">
                 </div>
             </div>
             
@@ -80,11 +83,72 @@
     </header>
     <!-- Content  -->
     <section class="content">
-        <div class="featured-products container">
+        <div class="intro">
+            <div class="intro1">
+                <span class="intro-above">Free shipping</span>
+                <span class="intro-below">All order over $300</span>
+            </div>
+            <div class="intro2">
+                <span class="intro-above">Support customer</span>
+                <span class="intro-below">Support 24/7</span>
+            </div>
+            <div class="intro3">
+                <span class="intro-above">Secure payments</span>
+                <span class="intro-below">Support 24/7</span>
+                <div class="line-intro3"></div>
+            </div>
+            <div class="line"></div>
+
+        </div>
+        <div class="featured-products">
+            <span class="it-start-with">It started with a simple idea: Create quality, well-designed products that I wanted myself.</span>
+            <!-- item 1 hover  -->
+            <div class="iteams1-hover">
+                <div class="text">
+                    <span class="price price-item-1">$179.00</span>
+                    <span class="name name-item-1">Gold Leaf Ring</span>
+                </div>
+                <img class="bg-product-1" src="/image/product-1.png" alt="">
+                <img class="product-1" src="/image/sp1.png" alt="">
+            </div>
+            <!-- item 2 -->
+            <div class="iteams2">
+                <div class="text">
+                    <div class="bg-text-iteams2-1"></div>
+                    <div class="bg-text-iteams2-2"></div>
+                </div>
+                <div class="img">
+                    <div class="img-iteams2"></div>
+                </div>
+            </div>
+            <div class="iteams3">
+            </div>
+            <div class="iteams4">
+            </div>
+            <!-- item 5 -->
+            <div class="iteams5">
+                <div class="text">
+
+                </div>
+                <div class="bg-iteams">
+
+                </div>
+            </div>
+            <!-- item 6 -->
+            <div class="iteams6">
+                <div class="text">
+
+                </div>
+                <div class="img">
+
+                </div>
+            </div>
+        </div>
+        <div class="featured-items">
             <div class="heading">
-                <ion-icon class="icon-play" name="play-circle"></ion-icon>
+                <i class="ion-android-arrow-dropright-circle"></i>
                 <span class="view-more">view more</span>
-                <span class="featured-items">Featured items</span>
+                <span class="featured-items-text">Featured items</span>
             </div>
             <div class="sp1">
                 <div class="text">
@@ -127,63 +191,130 @@
 
             </div>
         </div>
-
-        <div class="intro">
-            <div class="intro3">
-                
-            </div>
-            <div class="intro2">
-                
-            </div>
-            <div class="intro1">
-                
-            </div>
-            <div class="line">
-
-            </div>
-            <span class="it-start-with">It started with a simple idea: Create quality, well-designed pr</span>
-        </div>
-
-        <div class="featured-iteams">
-            <div class="iteams1-hover">
-                <div class="text">
-
-                </div>
-            </div>
-            <div class="iteams2">
-                <div class="text">
-
-                </div>
-                <div class="img">
-
-                </div>
-            </div>
-            <div class="iteams3">
-            </div>
-            <div class="iteams4">
-            </div>
-            <div class="iteams5">
-                <div class="text">
-
-                </div>
-                <div class="bg-iteams">
-
-                </div>
-            </div>
-            <div class="iteams6">
-                <div class="text">
-
-                </div>
-                <div class="img">
-
-                </div>
-            </div>
-        </div>
-
         <div class="blog">
-
+            <div class="heading">
+                <span class="blog-update">Blog update</span>
+            </div>
+            <!-- Blog 1 -->
+            <div class="blog-1">
+                <div class="heading">
+                    <span class="date-blog date-blog-1">July 14th, 2016</span>
+                    <span class="text-blog text-blog-1">8 Things I’ve Learned from 8 Years of Bonfire</span>
+                    <div class="line-blog line-blog-1"></div>
+                </div>
+                <div class="img">
+                    <img src="/image/img-blog-1.png" alt="">
+                </div>
+                <div class="share">
+                    <i class=""></i>
+                    <span class="like-blog like-blog-1">27 Likes</span>
+                </div>
+                <div class="view">
+                    <i class=""></i>
+                    <span class="view-blog view-blog-1">941 Views</span>
+                </div>
+                <div class="bg-blog bg-blog-1"></div>
+            </div>
+            <!-- Blog 2 -->
+            <div class="blog-2">
+                <div class="heading">
+                    <span class="date-blog date-blog-2">July 14th, 2016</span>
+                    <span class="text-blog text-blog-2">How I Stay Inspired and Come Up with New Ideas</span>
+                    <div class="line-blog line-blog-2"></div>
+                </div>
+                <div class="img">
+                    <img src="/image/img-blog-2.png" alt="">
+                </div>
+                <div class="share">
+                    <i class=""></i>
+                    <span class="like-blog like-blog-2">27 Likes</span>
+                </div>
+                <div class="view">
+                    <i class=""></i>
+                    <span class="view-blog view-blog-2">941 Views</span>
+                </div>
+                <div class="bg-blog bg-blog-2"></div>
+            </div>
+            <!-- Blog 3 -->
+            <div class="blog-3">
+                <div class="heading">
+                    <span class="date-blog date-blog-3">July 14th, 2016</span>
+                    <span class="text-blog text-blog-3">Wait, there’s a human on the other end?</span>
+                    <div class="line-blog line-blog-3"></div>
+                </div>
+                <div class="img">
+                    <img src="/image/img-blog-3.png" alt="">
+                </div>
+                <div class="share">
+                    <i class=""></i>
+                    <span class="like-blog like-blog-3">27 Likes</span>
+                </div>
+                <div class="view">
+                    <i class=""></i>
+                    <span class="view-blog view-blog-3">941 Views</span>
+                </div>
+                <div class="bg-blog bg-blog-3"></div>
+            </div>
+            <!-- Button  -->
+            <div class="button-blog">
+                <a href="#" class="go-to-blog">Go to blog</a>
+                <div class="bg-button-blog"></div>
+            </div>
+            <!-- Background -->
+            <div class="bg">
+                <div class="bg-blog"></div>
+            </div>
         </div>
     </section>
+    <!-- brands  -->
+    <section class="brands">
+        <img src="/image/logo-rolex.png" class="logo-rolex" alt="">
+        <img src="/image/logo-elle.png" class="logo-elle" alt="">
+        <img src="/image/logo-diamond.png" class="logo-diamond" alt="">
+        <img src="/image/logo-jubilee.png" class="logo-jubilee" alt="">
+        <img src="/image/logo-triton.png" class="logo-triton" alt="">
+        <img src="/image/logo-pandora.png" class="logo-pandora" alt="">
+    </section>
+    <!-- footer  -->
+    <footer>
+        <div class="hover">
+
+        </div>
+        <div class="text-footer">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Pages</a>
+            <a href="#">Contact</a>
+        </div>
+        <img class="logo-footer" src="/image/logo-footer.png" alt="">
+        <div class="contact">
+            <span class="address-footer">14 L.E Goulburn St, Sydney 2000NSW  -  (088) 1990 6886 Copyrigh</span>
+        </div>
+        
+        <div class="social">
+            <div class="skype">
+                <i class="ion-social-skype"></i>
+                <div class="cycle cycle-skype"></div>
+            </div>
+            <div class="youtube">
+                <i class="ion-social-youtube"></i>
+                <div class="cycle cycle-youtube"></div>
+            </div>
+            <div class="twitter">
+                <i class="ion-social-twitter"></i>
+                <div class="cycle cycle-twitter"></div>
+            </div>
+            <div class="facebook">
+                <i class="ion-social-facebook"></i>
+                <div class="cycle-facebook"></div>
+            </div>
+        </div>
+        <div class="bg-footer">
+            <div class="line-footer"></div>
+        </div>
+    </footer>
 </body>
 </html>
 
