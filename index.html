@@ -9,14 +9,16 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- FiraSans -->
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Cormorant Garamond -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
     <!-- Lato -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <!-- icon -->
+    <!-- icon v2 -->
     <link rel="stylesheet" href="./icon/css/ionicons.css">
+    <!-- icon v1 -->
+    <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
     <!-- Style  -->
     <link rel="stylesheet" href="./css/headerstyle.css">
     <link rel="stylesheet" href="./css/contentstyle.css">
@@ -114,81 +116,153 @@
             <!-- item 2 -->
             <div class="iteams2">
                 <div class="text">
-                    <div class="bg-text-iteams2-1"></div>
+                    <span class="percent-product-2">70%</span>
+                    <span class="shop-now">shop now</span>
+                    <span class="sale-up-to">sale up to</span>
+                    <span class="select-gold-clear">Select Gold Clearance</span>
+                    <div class="bg-text-iteams2-1">
+                        <img src="./image/bg-product-2.png">
+                    </div>
                     <div class="bg-text-iteams2-2"></div>
                 </div>
                 <div class="img">
-                    <div class="img-iteams2"></div>
+                    <div class="img-iteams2">
+                        <img src="./image/product-2.png">
+                    </div>
                 </div>
             </div>
             <div class="iteams3">
+                <div class="text">
+                    <span class="leaf-ring">Leaf&ensp;Ring</span>
+                    <span class="new-collection">new collectiion</span>
+                    
+                </div>
+                <div class="img-iteams3">
+                    <img src="./image/product-3.png">
+                    <div class="bg-iteams3"></div>
+                </div>
             </div>
             <div class="iteams4">
+                <span class="bonfire">Bonfire</span>
+                <img class="img-iteams4" src="./image/product-4-girl.png">
             </div>
             <!-- item 5 -->
             <div class="iteams5">
                 <div class="text">
-
+                    <span class="price price-item-1">$179.00</span>
+                    <span class="name name-item-1">Gold Leaf Ring</span>
                 </div>
-                <div class="bg-iteams">
-
-                </div>
+                <img class="bg-product-1" src="./image/product-1.png">
+                <img class="product-1" src="./image/sp1.png">
             </div>
             <!-- item 6 -->
             <div class="iteams6">
                 <div class="text">
-
+                    <span class="princess-ring">Princess Ring Rose Gold</span>
+                    <span class="rose-gold">Rose gold plated over brass&ensp;* One size</span>
                 </div>
                 <div class="img">
-
+                    <div class="bg-iteams6"></div>
+                    <img class="img-iteams6" src="./image/product-6.png">
                 </div>
             </div>
         </div>
         <div class="featured-items">
-            <div class="heading">
+            <div class="heading-featured-items">
                 <i class="ion-android-arrow-dropright-circle"></i>
                 <span class="view-more">view more</span>
                 <span class="featured-items-text">Featured items</span>
             </div>
-            <div class="sp1">
+            <div class="item sp1">
                 <div class="text">
-                    <span class="price price-1">$19.00</span>
-                    <span class="text-item kubusbowl-small">Kubusbowl Small</span>
+                    <span class="price-item price-1">$19.00</span>
+                    <span class="text-item text-item-1">Kubusbowl Small</span>
                 </div>
                 <div class="image">
-                    <img src="./image/sp1.png" class="img-sp1">
-                    <!-- <div class="rectangle-9-copy-2"></div> -->
+                    <img src="./image/sp1-1.png" class="img-sp1">
                 </div>
-                
             </div>
             
-            <div class="sp2">
+            <div class="item sp2">
                 <div class="text">
-                    <span class="price price-2">$179.00</span>
-                    <span class="text-item divine-footstool">Divine Footstool</span>
+                    <span class="price-item price-2">$179.00</span>
+                    <span class="text-item text-item-2">Divine Footstool</span>
                 </div>
                 <div class="image">
                     <img src="./image/sp2.png" class="img-sp2">
-                    <!-- <div class="rectangle-9-copy-2"></div> -->
                 </div>
             </div>
-            <div class="sp3">
-
+            <div class="item sp3">
+                <div class="text">
+                    <span class="price-item price-3">$179.00</span>
+                    <span class="text-item text-item-3">Cache Pendant Lamp</span>
+                </div>
+                <div class="image-sp3">
+                    <img src="./image/sp3.png" class="img-sp3">
+                </div>
+                <div class="hover-sp3">
+                    <div class="bg-icon heart-icon">
+                        <ion-icon class="sp3-icon" name="heart-outline"></ion-icon>
+                    </div>
+                    <div class="bg-icon bar-icon">
+                        <i class="sp3-icon ion-connection-bars"></i>
+                    </div>
+                    <div class="bg-icon search-icon">
+                        <ion-icon class="sp3-icon" name="search-outline"></ion-icon>
+                    </div>
+                    <div class="add-to-cart">
+                        <span class="add-to-cart-text">add to cart</span>
+                    </div>
+                    <div class="next-prev">
+                        <i class="ion-chevron-right"></i>
+                        <i class="ion-chevron-left"></i>
+                    </div>
+                </div>
             </div>
-            <div class="sp4">
-
+            <div class="item sp4">
+                <div class="text">
+                    <span class="price-item price-4">$179.00</span>
+                    <span class="text-item text-item-4">RIO Chair</span>
+                </div>
+                <div class="image">
+                    <img src="./image/sp4.png" class="img-sp4">
+                </div>
             </div>
-            <div class="sp5">
-
+            <div class="item sp5">
+                <div class="text">
+                    <span class="price-item price-5">$179.00</span>
+                    <span class="text-item text-item-5">Cache Pendant Lamp</span>
+                </div>
+                <div class="image">
+                    <img src="./image/sp5.png" class="img-sp5">
+                </div>
             </div>
-            <div class="sp6">
-
+            <div class="item sp6">
+                <div class="text">
+                    <span class="price-item price-6">$69.00</span>
+                    <span class="text-item text-item-6">Prismatic table</span>
+                </div>
+                <div class="image">
+                    <img src="./image/sp6.png" class="img-sp6">
+                </div>
             </div>
-            <div class="sp7">
-
+            <div class="item sp7">
+                <div class="text">
+                    <span class="price-item price-7">$179.00</span>
+                    <span class="text-item text-item-7">CobraT hermo Cup</span>
+                </div>
+                <div class="image">
+                    <img src="./image/sp7.png" class="img-sp7">
+                </div>
             </div>
-            <div class="sp8">
-
+            <div class="item sp8">
+                <div class="text">
+                    <span class="price-item price-8">$179.00</span>
+                    <span class="text-item text-item-8">Montana Collection</span>
+                </div>
+                <div class="image">
+                    <img src="./image/sp8.png" class="img-sp8">
+                </div>
             </div>
         </div>
         <div class="blog">
@@ -196,7 +270,7 @@
                 <span class="blog-update">Blog update</span>
             </div>
             <!-- Blog 1 -->
-            <div class="blog-1">
+            <div class="bg-blog blog-1">
                 <div class="heading">
                     <span class="date-blog date-blog-1">July 14th, 2016</span>
                     <span class="text-blog text-blog-1">8 Things I’ve Learned from 8 Years of Bonfire</span>
@@ -205,18 +279,18 @@
                 <div class="img">
                     <img src="./image/img-blog-1.png">
                 </div>
-                <div class="share">
-                    <i class=""></i>
+                <div class="share-1">
+                    <i class="ion-android-share-alt"></i>
                     <span class="like-blog like-blog-1">27 Likes</span>
                 </div>
-                <div class="view">
-                    <i class=""></i>
+                <div class="view-1">
+                    <i class="ion-eye"></i>
                     <span class="view-blog view-blog-1">941 Views</span>
                 </div>
                 <div class="bg-blog bg-blog-1"></div>
             </div>
             <!-- Blog 2 -->
-            <div class="blog-2">
+            <div class="bg-blog blog-2">
                 <div class="heading">
                     <span class="date-blog date-blog-2">July 14th, 2016</span>
                     <span class="text-blog text-blog-2">How I Stay Inspired and Come Up with New Ideas</span>
@@ -225,18 +299,18 @@
                 <div class="img">
                     <img src="./image/img-blog-2.png" >
                 </div>
-                <div class="share">
-                    <i class=""></i>
+                <div class="share-1">
+                    <i class="ion-android-share-alt"></i>
                     <span class="like-blog like-blog-2">27 Likes</span>
                 </div>
-                <div class="view">
-                    <i class=""></i>
+                <div class="view-1">
+                    <i class="ion-eye"></i>
                     <span class="view-blog view-blog-2">941 Views</span>
                 </div>
                 <div class="bg-blog bg-blog-2"></div>
             </div>
             <!-- Blog 3 -->
-            <div class="blog-3">
+            <div class="bg-blog blog-3">
                 <div class="heading">
                     <span class="date-blog date-blog-3">July 14th, 2016</span>
                     <span class="text-blog text-blog-3">Wait, there’s a human on the other end?</span>
@@ -245,25 +319,23 @@
                 <div class="img">
                     <img src="./image/img-blog-3.png" >
                 </div>
-                <div class="share">
-                    <i class=""></i>
+                <div class="share-1">
+                    <i class="ion-android-share-alt"></i>
                     <span class="like-blog like-blog-3">27 Likes</span>
                 </div>
-                <div class="view">
-                    <i class=""></i>
+                <div class="view-1">
+                    <i class="ion-eye"></i>
                     <span class="view-blog view-blog-3">941 Views</span>
                 </div>
                 <div class="bg-blog bg-blog-3"></div>
             </div>
             <!-- Button  -->
             <div class="button-blog">
-                <a href="#" class="go-to-blog">Go to blog</a>
-                <div class="bg-button-blog"></div>
+                <div class="bg-button-blog">                    
+                    <a href="#" class="go-to-blog">Go to blog</a>
+                </div>
             </div>
             <!-- Background -->
-            <div class="bg">
-                <div class="bg-blog"></div>
-            </div>
         </div>
     </section>
     <!-- brands  -->
@@ -290,25 +362,32 @@
         </div>
         <img class="logo-footer" src="./image/logo-footer.png" >
         <div class="contact">
-            <span class="address-footer">14 L.E Goulburn St, Sydney 2000NSW  -  (088) 1990 6886 Copyrigh</span>
+            <span class="address-footer">14 L.E Goulburn St, Sydney 2000NSW  -  (088) 1990 6886</span>
+            <span class="copyright-footer">Copyright © 2016 Bonfire</span>
         </div>
         
         <div class="social">
-            <div class="skype">
-                <i class="ion-social-skype"></i>
-                <div class="cycle cycle-skype"></div>
+            <div class="facebook">
+                <div class="cycle-facebook"> 
+                    <div class="icon-footer">
+                        <i class="ion-social-facebook"></i>
+                    </div>                   
+                </div>
+            </div>
+            <div class="twitter">                
+                <div class="cycle cycle-twitter">
+                    <i class="icon-footer ion-social-twitter"></i>
+                </div>
             </div>
             <div class="youtube">
-                <i class="ion-social-youtube"></i>
-                <div class="cycle cycle-youtube"></div>
+                <div class="cycle cycle-youtube">
+                    <i class="icon-footer ion-social-youtube"></i>
+                </div>
             </div>
-            <div class="twitter">
-                <i class="ion-social-twitter"></i>
-                <div class="cycle cycle-twitter"></div>
-            </div>
-            <div class="facebook">
-                <i class="ion-social-facebook"></i>
-                <div class="cycle-facebook"></div>
+            <div class="skype">
+                <div class="cycle cycle-skype">
+                    <i class="icon-footer ion-social-skype"></i>
+                </div>
             </div>
         </div>
         <div class="bg-footer">
