@@ -3,9 +3,8 @@ body{
 }
 header{
     position: relative;
-    background-color: cornflowerblue;
     width: 1920px;
-    height: 1001px;
+    height: 1000px;
 }
 .menu{
     background-color: aquamarine;
@@ -142,4 +141,57 @@ header{
     height: 253px;
     z-index: 2;
     letter-spacing: 30px;
+}
+
+.social-header{
+    width: 122.5px;
+    height: 146.09px;
+    position: absolute;
+    left: 1698px;
+    top: 430px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.social-header a{
+    font-size: 24px;
+    font-family: "Cormorant Garamond";
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: right;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+}
+
+.shape-1{
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    right: -99px;
+    width: 80px;
+    height: 1px;
+    z-index: 4;
+    display: none;
+}
+
+.fb:hover ~ .shape-1{
+    top: 15px;
+    display: block;
+}
+
+.tw:hover ~ .shape-1{
+    top: 55px;
+    display: block;
+}
+
+.is:hover ~ .shape-1{
+    top: 95px;
+    display: block;
+}
+
+.yt:hover ~ .shape-1{
+    top: 135px;
+    display: block;
 }
